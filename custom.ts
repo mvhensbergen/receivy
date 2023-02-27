@@ -19,8 +19,8 @@ namespace Redundant {
     /** 
      * Checks if a received string is a duplicate
      * @param s the string which was received
-     * @return returns the actual string
      */
+    //%block
     export function Receive(s: string): string {
         let parts = s.split(";")
         let thisSeq = parseInt(parts[0])
